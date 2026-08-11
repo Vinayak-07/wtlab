@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Implementation of JavaScript</title>
+<style>
+body{font-family:Arial;margin:30px;}
+h2{color:#2b4a8b;}
+div{margin-bottom:25px;}
+input{padding:4px;}
+button{padding:6px 12px;margin-left:5px;}
+</style>
+</head>
+<body>
+
+<h1>JavaScript with HTML - Demonstration</h1>
+
+<div>
+  <h2>1. Celsius to Fahrenheit</h2>
+  <input type="number" id="celsius" placeholder="Enter Celsius">
+  <button onclick="convertTemp()">Convert</button>
+  <p id="tempResult"></p>
+</div>
+
+<div>
+  <h2>2. Sum of Two Numbers</h2>
+  <input id="a" placeholder="Number 1">
+  <input id="b" placeholder="Number 2">
+  <button onclick="addNumbers()">Add</button>
+  <p id="sumResult"></p>
+</div>
+
+<div>
+  <h2>3. Largest of Two Numbers</h2>
+  <input id="x" placeholder="Number 1">
+  <input id="y" placeholder="Number 2">
+  <button onclick="findLargest()">Find Largest</button>
+  <p id="largeResult"></p>
+</div>
+
+<div>
+  <h2>4. Even or Odd</h2>
+  <input id="num" placeholder="Enter a number">
+  <button onclick="checkEvenOdd()">Check</button>
+  <p id="evenResult"></p>
+</div>
+
+<div>
+  <h2>5. Select Course Type (Event Handling)</h2>
+  <select id="courseType" onchange="showCourses()">
+    <option value="">Select</option>
+    <option value="UG">UG</option>
+    <option value="PG">PG</option>
+  </select>
+  <p id="courseList"></p>
+</div>
+
+<div>
+  <h2>6. Change Text Color (DOM Manipulation)</h2>
+  <select onchange="document.getElementById('demoText').style.color=this.value">
+    <option value="black">Black</option>
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+  </select>
+  <p id="demoText">This text will change color.</p>
+</div>
+
+<script>
+// 1. Temperature Conversion
+function convertTemp(){
+  let c = parseFloat(document.getElementById("celsius").value);
+  let f = (c * 9/5) + 32;
+  document.getElementById("tempResult").innerHTML = c + " °C = " + f.toFixed(2) + " °F";
+}
+
+// 2. Addition
+function addNumbers(){
+  let a = Number(document.getElementById("a").value);
+  let b = Number(document.getElementById("b").value);
+  document.getElementById("sumResult").innerHTML = "Sum = " + (a+b);
+}
+
+// 3. Largest of two numbers
+function findLargest(){
+  let x = Number(document.getElementById("x").value);
+  let y = Number(document.getElementById("y").value);
+  let result = (x > y) ? x : y;
+  document.getElementById("largeResult").innerHTML = "Largest = " + result;
+}
+
+// 4. Even or Odd
+function checkEvenOdd(){
+  let n = Number(document.getElementById("num").value);
+  let result = (n % 2 === 0) ? "Even" : "Odd";
+  document.getElementById("evenResult").innerHTML = n + " is " + result;
+}
+
+// 5. Dropdown event - show courses
+function showCourses(){
+  let type = document.getElementById("courseType").value;
+  let result = "";
+  if(type === "UG"){
+    result = "UG Courses: BCA, B.Sc, B.Tech";
+  } else if(type === "PG"){
+    result = "PG Courses: MCA, M.Sc, M.Tech";
+  }
+  document.getElementById("courseList").innerHTML = result;
+}
+</script>
+
+</body>
+</html>

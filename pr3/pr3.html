@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Style Sheets</title>
+
+<!-- Internal CSS -->
+<style>
+body{font-family:Arial;margin:30px;}
+h2{color:#2b4a8b;}
+.internal{color:green;font-size:20px;}
+</style>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="pr3.css">
+</head>
+<body>
+
+<h2>Types of CSS (Cascading Style Sheets)</h2>
+
+<!-- Inline CSS -->
+<p style="color:red;font-size:20px;">This line uses INLINE CSS (style attribute)</p>
+
+<p class="internal">This line uses INTERNAL CSS (style tag in head)</p>
+
+<p class="external">This line uses EXTERNAL CSS (linked pr3.css file)</p>
+
+<h3>Selectors demo (from external.css)</h3>
+<div id="box">This div is styled using an ID selector (#box)</div>
+<p class="highlight">This paragraph is styled using a class selector (.highlight)</p>
+
+</body>
+</html>

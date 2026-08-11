@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Related Tags</title>
+<style>
+body{font-family:Arial;margin:30px;}
+h2{color:#2b4a8b;}
+img{border:1px solid #999;}
+</style>
+</head>
+<body>
+
+<h2>Image Tag Attributes</h2>
+<img src="pin.jpg" alt="Pin" width="150" height="150">
+<p>The above image uses the src, alt, width and height attributes of the &lt;img&gt; tag.</p>
+
+<h2>Change Image on Click (JavaScript + Image)</h2>
+<img id="photo" src="pin.jpg" width="150">
+<br><br>
+<button onclick="document.getElementById('photo').src='kiwi.jpg'">Show Kiwi</button>
+<button onclick="document.getElementById('photo').src='pin.jpg'">Show Pin</button>
+
+<h2>Image Map</h2>
+<img src="pin.jpg" width="150" usemap="#imgmap">
+<map name="imgmap">
+  <area shape="rect" coords="0,0,75,150" href="https://www.google.com" alt="Left half - Google">
+  <area shape="rect" coords="75,0,150,150" href="https://www.wikipedia.org" alt="Right half - Wikipedia">
+</map>
+<p>Click on the left or right half of the image above (image map regions).</p>
+
+</body>
+</html>
