@@ -1,9 +1,9 @@
 # WT Lab — Practical 10: Bootstrap
 
-34 standalone HTML programs, each demonstrating a Bootstrap 5 / CDN concept.
+34 standalone HTML programs demonstrating Bootstrap 5 via CDN.
 
-- Files **01–19**: from original uploaded material (with corrected original set).
-- Files **20–34**: self-made/original practice programs.
+- **01–19:** Programs from original uploaded material
+- **20–34:** Self-made/original practice programs
 
 | # | File | Demonstrates |
 |---|------|--------------|
@@ -16,7 +16,7 @@
 | 7 | 07_bootstrap_button_onclick_alert.html | Button with `onclick` JS alert |
 | 8 | 08_bootstrap_button_color_change.html | Button that changes page background color |
 | 9 | 09_bootstrap_button_text_change.html | Button that updates heading text |
-| 10 | 10_bootstrap_cdn_showmessage_alert.html | CDN demo button calling `showMessage()` with success alert |
+| 10 | 10_bootstrap_cdn_show_message.html | CDN demo with button calling `showMessage()` + alert |
 | 11 | 11_bootstrap_card.html | `.card` component |
 | 12 | 12_bootstrap_table.html | `.table .table-bordered .table-striped` |
 | 13 | 13_bootstrap_form_basic.html | `.form-control` input + button |
@@ -32,12 +32,12 @@
 | 23 | 23_bootstrap_spinner.html | `.spinner-border` / `.spinner-grow` + loading-button pattern |
 | 24 | 24_bootstrap_accordion.html | `.accordion` — collapsible FAQ |
 | 25 | 25_bootstrap_carousel.html | `.carousel` — auto-sliding, indicators, prev/next |
-| 26 | 26_bootstrap_nav_tabs.html | `.nav-tabs` with tab-pane content |
-| 27 | 27_bootstrap_offcanvas.html | `.offcanvas` side panel |
-| 28 | 28_bootstrap_toast.html | `.toast` notification triggered via JS |
-| 29 | 29_bootstrap_dropdown.html | `.dropdown` button and menu |
-| 30 | 30_bootstrap_pagination.html | `.pagination` navigation |
-| 31 | 31_bootstrap_list_group.html | `.list-group` with badges |
-| 32 | 32_bootstrap_tooltip_popover.html | Tooltip and popover components |
-| 33 | 33_bootstrap_breadcrumb.html | `.breadcrumb` navigation path |
-| 34 | 34_bootstrap_input_group.html | `.input-group` field patterns |
+| 26 | 26_bootstrap_navbar.html | Responsive navbar with toggler |
+| 27 | 27_bootstrap_cards_grid.html | Responsive grid of cards |
+| 28 | 28_bootstrap_toast.html | Toast notification triggered by button |
+| 29 | 29_bootstrap_tabs.html | Nav tabs with tab-pane content |
+| 30 | 30_bootstrap_offcanvas.html | Offcanvas sidebar menu |
+| 31 | 31_bootstrap_tooltip_popover.html | Tooltip and popover components |
+| 32 | 32_bootstrap_pagination.html | Pagination component |
+| 33 | 33_bootstrap_list_group.html | List group with badge |
+| 34 | 34_bootstrap_breadcrumb.html | Breadcrumb navigation |
