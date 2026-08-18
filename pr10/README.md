@@ -1,8 +1,9 @@
 # WT Lab — Practical 10: Bootstrap
 
-25 standalone HTML programs, each demonstrating one Bootstrap 5 / CDN concept.
-Files 01–19 are original-style programs (deduplicated + organized + numbered).
-Files 20–25 were added to cover Alert, Modal, Badge, Spinner, Accordion, Carousel.
+34 standalone HTML programs demonstrating Bootstrap 5 via CDN.
+
+- **01–19:** Programs from original uploaded material
+- **20–34:** Self-made/original practice programs
 
 | # | File | Demonstrates |
 |---|------|--------------|
@@ -15,7 +16,7 @@ Files 20–25 were added to cover Alert, Modal, Badge, Spinner, Accordion, Carou
 | 7 | 07_bootstrap_button_onclick_alert.html | Button with `onclick` JS alert |
 | 8 | 08_bootstrap_button_color_change.html | Button that changes page background color |
 | 9 | 09_bootstrap_button_text_change.html | Button that updates heading text |
-| 10 | 10_bootstrap_button_types.html | submit / reset / normal button types, Bootstrap-styled form |
+| 10 | 10_bootstrap_cdn_show_message.html | CDN demo with button calling `showMessage()` + alert |
 | 11 | 11_bootstrap_card.html | `.card` component |
 | 12 | 12_bootstrap_table.html | `.table .table-bordered .table-striped` |
 | 13 | 13_bootstrap_form_basic.html | `.form-control` input + button |
@@ -31,3 +32,12 @@ Files 20–25 were added to cover Alert, Modal, Badge, Spinner, Accordion, Carou
 | 23 | 23_bootstrap_spinner.html | `.spinner-border` / `.spinner-grow` + loading-button pattern |
 | 24 | 24_bootstrap_accordion.html | `.accordion` — collapsible FAQ |
 | 25 | 25_bootstrap_carousel.html | `.carousel` — auto-sliding, indicators, prev/next |
+| 26 | 26_bootstrap_navbar.html | Responsive navbar with toggler |
+| 27 | 27_bootstrap_cards_grid.html | Responsive grid of cards |
+| 28 | 28_bootstrap_toast.html | Toast notification triggered by button |
+| 29 | 29_bootstrap_tabs.html | Nav tabs with tab-pane content |
+| 30 | 30_bootstrap_offcanvas.html | Offcanvas sidebar menu |
+| 31 | 31_bootstrap_tooltip_popover.html | Tooltip and popover components |
+| 32 | 32_bootstrap_pagination.html | Pagination component |
+| 33 | 33_bootstrap_list_group.html | List group with badge |
+| 34 | 34_bootstrap_breadcrumb.html | Breadcrumb navigation |
